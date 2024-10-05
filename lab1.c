@@ -49,31 +49,5 @@ int main() {
     return 0;
 }
 
-/* Function to calculate the average score */
-float calculate_average(int score1, int score2, int score3, int score4, int score5) {
-    return (score1 + score2 + score3 + score4 + score5) / 5.0;
-}
 
-/* Function to determine the classification */
-const char* determine_classification(float average) {
-    if (average < 39.5) {
-        return "FAIL";
-    } else if (average < 49.5) {
-        return "3rd";
-    } else if (average < 59.5) {
-        return "2.2 (Lower Second-Class)";
-    } else if (average < 69.5) {
-        return "2.1 (Upper Second-Class)";
-    } else {
-        return "1st (First-Class)";
-    }
-}
 
-/* Function to check if the student qualifies for an award */
-int check_award(float average) {
-    if (average >= 69.5) {
-        return 1;  
-    } else {
-        return 0;  
-    }
-}

@@ -1,2 +1,2 @@
 # advanced-programming
-This repository is a practice environnement for our BSc Advance programming module.
+This repository is a practice environment for our BSc Advanced Programming module.
